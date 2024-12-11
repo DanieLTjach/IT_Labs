@@ -1,0 +1,26 @@
+.text_Tab1{
+    font-family: 'Verdana', sans-serif;
+    font-size: 18px;
+    color: #000000;
+    background-color: #d6d6d6;
+    padding: 20px;
+    border-radius: 10px;
+    border-left: 4px solid #280079;
+}
+
+.tabs {
+    display: flex;
+    flex-direction: column;
+}
+
+.tab-input {
+    display: none;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-input:checked + .tab-label + .tab-content {
+    display: block;
+}
